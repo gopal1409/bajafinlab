@@ -1,0 +1,7 @@
+sudo -i
+apt-get update
+apt-get upgrade
+apt install httpd
+systemctl status apache2
+systemctl enable apache2
+systemctl start apache2
